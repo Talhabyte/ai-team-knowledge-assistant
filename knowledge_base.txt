@@ -1,0 +1,37 @@
+Meeting: Sprint Planning - AI Workflow Automation
+Date: 2026-04-24
+
+Discussion:
+The team discussed building an AI workflow automation prototype to support Scrum Masters and delivery teams. The main goal is to reduce manual sprint reporting and improve delivery visibility.
+
+Current Challenges:
+- Scrum Masters manually collect task data from Jira.
+- Weekly sprint reports take too much time to prepare.
+- Blocked tasks are not escalated early.
+- Delivery risks are often discovered late.
+- Teams need better visibility into sprint readiness and progress.
+
+Decisions:
+- Build a prototype dashboard for agile delivery insights.
+- Use AI to summarize sprint health and suggest next actions.
+- Track blocked tasks, overdue tasks, completion rate, and assignee workload.
+- Export reports for internal sharing.
+
+Action Items:
+- Talha will build the first Streamlit prototype.
+- Sara will define reporting metrics.
+- Ahsan will review dashboard layout.
+- Fasi will test sample sprint data.
+- Sahar will document limitations and future improvements.
+
+Risks:
+- API limits may affect AI response reliability.
+- Sample data may not fully represent enterprise delivery workflows.
+- Users may need training to trust AI-generated recommendations.
+
+Future Ideas:
+- Integrate with Jira API.
+- Add Power BI export.
+- Add Azure DevOps support.
+- Generate release notes automatically.
+- Create AI-generated sprint retrospectives.
